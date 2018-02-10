@@ -1,0 +1,317 @@
+body {
+    color: #8f959c !important;
+    background: #1b1c1e !important;
+}
+
+
+/* common */
+
+.message,
+.rate-bar .text .game {
+    color: #51555a !important;
+}
+
+.sector div {
+    color: #1b1c1e !important;
+}
+
+.btn-moments {
+    border-color: #272829 !important;
+    color: #8f959c !important;
+}
+
+.rate-bar .bar {
+    background: #51555a !important;
+}
+
+.skill-desc-wrap {
+    background: #26272a !important;
+}
+
+.skill-desc .modal-title,
+.skill-desc .modal-close {
+    border-color: #414244 !important;
+    color: #9ca3ab !important;
+}
+
+.skill-desc p,
+.skill-desc-wrap .content-table {
+    color: #5e656d !important;
+}
+
+.skill-desc .highlight {
+    color: #9ca3ab !important;
+}
+
+
+/* search */
+
+.bg-search {
+    background: #1b1c1e !important;
+}
+
+.sec-search-header {
+    border-color: #272829 !important;
+    background: #1b1c1e !important;
+}
+
+.sec-search-header .form-group {
+    border-color: #272829 !important;
+    background: #272829 !important;
+}
+
+.sec-search-header input,
+.search-friend-item .summon-name {
+    color: #8f959c !important;
+}
+
+.sec-search-friends .friend-title {
+    color: #51555a !important;
+    background: #1b1c1e !important;
+}
+
+.sec-search-friends .friend-title:after {
+    background: #272829 !important;
+}
+
+.sec-search-friends .friend-list {
+    background: #1b1c1e !important;
+}
+
+.search-friend-item .friend-item-text {
+    border-color: #272829 !important;
+}
+
+.search-friend-item .summon-last-played,
+.search-friend-item i.glyphicon,
+.sec-serch-body .sec-search-not-found {
+    color: #51555a !important;
+}
+
+.sec-serch-body {
+    background: #1b1c1e !important;
+}
+
+
+/* moments */
+
+.moment-content.no-history .message,
+.list-moments .media-body .date,
+.list-moments .media-body p {
+    color: #51555a !important;
+}
+
+.list-moments .moment-date,
+.list-moments .media-left .avatar {
+    background: #1b1c1e !important;
+}
+
+.list-moments .media:before {
+    background: #272829 !important;
+}
+
+.list-moments .media-body .title {
+    color: #8f959c !important;
+}
+
+.list-moments .divider {
+    border-color: #272829 !important;
+    background: #171719 !important;
+}
+
+.list-moments .divider .badge-date {
+    color: #51555a !important;
+    background: #1b1c1e !important;
+}
+
+
+/* profile */
+
+.sec-user-stats .sec-stats:before {
+    border-color: #272829 !important;
+    background: #171719 !important;
+}
+
+.sec-user-stats .ranked-stats-row p {
+    color: #51555a !important;
+}
+
+.sec-user-stats .ranked-stats-row .level {
+    color: #8f959c !important;
+}
+
+.sec-user-stats .ranked-stats-row .divider {
+    background: #272829 !important;
+}
+
+
+/* champions & trends */
+
+.trend-filter {
+    border-color: #272829 !important;
+    color: #51555a !important;
+    background: #1b1c1e !important;
+}
+
+.trend-filter .trend-filter-title input[type=radio]:checked+span.trend-filter-type {
+    color: #8f959c !important;
+}
+
+.trend-filter .trend-filter-title .trend-filter-type:after {
+    border-color: #51555a !important;
+}
+
+.trend-filter .trend-filter-title input[type=radio]:checked+span.trend-filter-type:after {
+    border-color: #8f959c !important;
+}
+
+.trend-filter .btn-filter-wrap .btn-filter {
+    background-image: url(../images/white/btn-filter_n.png) !important;
+}
+
+.trend-filter .trend-filter-selection {
+    background: #17181a !important;
+}
+
+.trend-filter .trend-filter-selection .trend-filter-type {
+    border-color: rgba(48, 49, 51, 0.5) !important;
+    color: #51555a !important;
+    background: #1b1c1e !important;
+}
+
+.trend-filter .trend-filter-selection input[type=radio]:checked+span.trend-filter-type {
+    border-color: rgba(48, 49, 51, 0.5) !important;
+    color: #8f959c !important;
+}
+
+.trend-items-container.no-history .message,
+.trend-items-container .trend-item .trend-item-stats .rate-bar .text,
+.trend-items-container .trend-item .trend-item-stats.pick .rate-bar .text {
+    color: #51555a !important;
+}
+
+.trend-items-container .trend-item:after {
+    background: #272829 !important;
+}
+
+.trend-items-container .trend-item .trend-item-stats.active .rate-bar .text {
+    color: #0086ff !important;
+}
+
+
+/* live */
+
+.bg-live {
+    background: #1b1c1e !important;
+}
+
+.sec-no-live .message,
+.sec-live .player-wrap .player-body {
+    color: #51555a !important;
+}
+
+.sec-live .bg-vs {
+    background: #17181a !important;
+}
+
+.sec-live .bg-vs:before {
+    color: #8f959c !important;
+}
+
+.sec-live .bg-vs-line {
+    background-image: url(../images/white/bg-live-vs-line_n.png)
+}
+
+.sec-live .player-wrap .rate-bar .bar {
+    background: #51555a !important;
+}
+
+.sec-live .player-wrap .avatar .sector div {
+    color: #1b1c1e !important;
+}
+
+
+/* game detail */
+
+.stats-info .player-summary .media-detail,
+.stats-info .player-summary .media-left .img-wrap,
+.recent-games.player-summary .media-left .img-wrap,
+.stats-info .player-summary .mvp .media-left .img-wrap,
+.recent-games.player-summary .mvp .media-left .img-wrap,
+.stats-info .player-summary .item-box li.noskill .img-holder {
+    background: #17181a !important;
+}
+
+.stats-info .player-summary .game-status,
+.recent-games.player-summary .game-status,
+.game-info-id {
+    color: #51555a !important;
+}
+
+.stats-info .player-summary .game-status img {
+    opacity: 0.4 !important;
+}
+
+.stats-info .player-summary .divider {
+    border-color: #272829 !important;
+}
+
+.stats-info .player-summary .media-detail:before {
+    border-color: transparent transparent #17181a transparent !important;
+}
+
+
+/* home */
+
+.header.home-header,
+.panel-user .live,
+.game-brief .sec-brief {
+    background: #1b1c1e !important;
+}
+
+.panel-user .level,
+.game-brief .glyphicon,
+.game-brief .game-breif-item .type,
+.trends-brief .title,
+.trends-brief .glyphicon,
+.recent-games .media-right-float,
+.recent-games.player-summary .achievement-box {
+    color: #51555a !important;
+}
+
+.game-brief:before,
+.game-brief:after,
+.recent-games-title:before {
+    border-color: #272829 !important;
+    background: #171719 !important;
+}
+
+.game-brief .game-breif-item .value,
+.recent-games.player-summary .media-body .title {
+    color: #8f959c !important;
+}
+
+.trends-brief,
+.trends-brief.champions {
+    border-color: #171719 !important;
+}
+
+.sec-brief {
+    border-color: #272829 !important;
+    background: #1b1c1e !important;
+}
+
+.btn-my-friend {
+    border-color: #272829 !important;
+    color: #8f959c !important;
+}
+
+.game-brief .game-breif-item:before,
+.recent-games .media:after {
+    background: #272829 !important;
+}
+
+.recent-games.player-summary .item-box .img-holder,
+.recent-games.player-summary .item-box .noskill .img-holder {
+    background: #171719 !important;
+}
