@@ -27,6 +27,10 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "*://lolhelperth.garenanow.com/*"
+    "*://lolhelperth.garenanow.com/*",
+    "*://lolhelperph.garenanow.com/*",
+    "*://lolhelpersg.garenanow.com/*",
+    "*://lolhelpervn.garenanow.com/*",
+    "*://lolhelperid.garenanow.com/*"
   ]
 }
