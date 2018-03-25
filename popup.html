@@ -21,10 +21,19 @@
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     }
     </style>
+	<script src="chrome-call.min.js"></script>
+	<script src="popup.js"></script>
   </head>
   <body>
-    <a href="http://lolhelperth.garenanow.com/" target="_blank" class="button">Open LoL Assist</a>
-	<p>Source code: <a href="https://github.com/secretdataz">GitHub.com/secretdataz/LoLHelperTHUA</a>
+	Region: <select id="regionSel">
+		<option value="th">Thailand</option>
+		<option value="sg">Singapore/Malaysia</option>
+		<option value="ph">Philippines</option>
+		<option value="vn">Vietnam</option>
+		<option value="id">Indonesia</option>
+	</select>
+    <a href="http://lolhelperth.garenanow.com/" target="_blank" class="button" id="launchBtn">Open LoL Assist</a>
+	<p>Source code: <a href="https://github.com/secretdataz">GitHub.com/secretdataz/LoLHelperUnblock</a>
   </body>
 </html>
 
