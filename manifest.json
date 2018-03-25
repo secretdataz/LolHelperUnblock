@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "homepage_url": "http://github.com/secretdataz/LolHelperTHUA/",
+  "homepage_url": "http://github.com/secretdataz/LolHelperUnblock/",
   "name": "LoL Assist Browser",
-  "description": "การีน่ามึงบล็อคทำไมฮัลโหลลล",
-  "version": "0.1.5",
+  "description": "Unblocks access to Garena's LoL Assist",
+  "version": "0.2.0",
 
   "browser_action": {
     "default_icon": "icon.png",
@@ -16,7 +16,11 @@
   "content_scripts": [
     {
       "matches": [
-        "*://lolhelperth.garenanow.com/*"
+        "*://lolhelperth.garenanow.com/*",
+        "*://lolhelperph.garenanow.com/*",
+        "*://lolhelpersg.garenanow.com/*",
+        "*://lolhelpervn.garenanow.com/*",
+        "*://lolhelperid.garenanow.com/*"
       ],
       "css": ["style.css"],
       "run_at": "document_start"
